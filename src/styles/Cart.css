@@ -1,0 +1,33 @@
+.cart-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-table th {
+  background-color: orange;
+  color: white;
+}
+
+.cart-table button {
+  padding: 5px 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cart-table button:hover {
+  background-color: darkred;
+}

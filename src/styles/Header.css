@@ -1,0 +1,30 @@
+.header {
+  background-color: orange;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header-right a:hover {
+  color: #ffe0b2;
+}
+
+.header img{
+  width: 5%;
+}
